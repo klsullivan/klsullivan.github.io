@@ -1,0 +1,21 @@
+body {
+    
+    background-color: #ffad07;
+    background-size: cover;
+    font-family:arial, helvetica, sans-serif;
+
+ }
+
+h1, h2, h5 {
+    color: #F9172C;
+  } 
+h3 {color:#fff10a;
+	font-style: italic;
+}
+    
+nav, a{ color: #ffffc0;
+}
+
+p {
+    color: #ffffc0;
+}
