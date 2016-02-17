@@ -1,0 +1,118 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #e8c66a;
+	font-family: "Arial Black",Gadget, sans-serif;
+}	
+
+a {
+	background-color: 
+	color:#4169E1;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+}
+a:hover {
+	background-color: white;
+}
+body {
+	background-image: url("../images/the-phoenix-rising.jpg");
+	background-color: #FF0209;
+    background-size: cover; 
+}
+
+ #two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 72%;
+}
+aside {
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: #4169E1;
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+h2 {
+	color: #ffff00; 
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h3{
+	color: #ffffc0;
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 22px;
+}
+
+h4 {
+    color: #F9172C;
+    font-family: 'Eaglge Lake', helvetica, sans-serif;
+	font-style: italic;
+} 
+    
+ul {
+	font-family:arial, helvetica, sans-serif;
+    color: #ffffc0;
+    list-style-type: none;
+}
+
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+p {
+	font-family:arial, helvetica, sans-serif;
+    color: #ffffc0;
+}
