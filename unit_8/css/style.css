@@ -1,0 +1,148 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	background-color: ;
+	font-family: "Arial Black",Gadget, sans-serif;
+	display: inline-block;
+}
+
+nav li{
+	outline-color: 45% 	#e6e600;
+	padding: 18px 28px;
+	color:  #ff3300;
+}	
+
+a {
+	background-color: ;
+	color: #fff000;
+	text-decoration: none;
+	display: block;
+	/*padding: ;*/
+}
+a:hover {
+	color: #dea821;
+}
+body {
+	background-image: url("../images/the-phoenix-rising.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+ #two_column {
+    /*background-color: ;
+    border:;*/ 
+    padding: 1em;
+}
+
+/*#left {
+    background-color: ;
+    border: ;
+    padding: ;
+    float: left;
+    width: ;
+}
+*/
+#right {
+    text-align: center;
+}
+aside {
+	color: #eb4e14;
+	font-family: "Arial Black",Gadget, sans-serif;
+	font-weight: 900;
+	font-size: 1em;
+}
+
+/*article {
+	background-color: ;
+	border: ;
+	padding: ;
+}
+*/
+/*section {
+	background-color: ;
+	border: ;
+	padding: ;
+}
+*/
+
+h1 {
+	color: #e60000;
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 3.5em;
+}
+
+h2 {
+	color: #E6CC3E; 
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	padding-top: 2em;
+	padding-bottom: .5em;
+	}
+
+h3{
+	color: rgba(230, 0, 0,5);
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size:2.5em;
+	padding-bottom: 1em;
+}
+
+h4 {
+    color: #F9172C;
+    font-family: 'Eaglge Lake', helvetica, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+} 
+    
+ul {
+	font-family: "Arial Black",Gadget, sans-serif;
+    color: #e6e600;
+    font-size: 24px;
+    /list-style-type: none;
+    text-shadow: #ebeb14; 
+}
+
+/*footer {
+	background-color: ;
+	border: ;
+	padding: ;
+}*/
+
+p {
+	font-family:arial, helvetica, sans-serif;
+    color: #ffffc0;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+@media screen and (max-width: 500px){
+	body{
+		border: 5px solid green;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	nav{
+		background-color: rgba(0,0,0,0.5);
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-color: #eb4e14;
+	}
+}
