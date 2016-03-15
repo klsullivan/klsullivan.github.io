@@ -1,0 +1,182 @@
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+header {
+	text-align: center;
+}
+
+nav {
+	/*background-color: ;*/
+	font-family: "Arial Black",Gadget, sans-serif;
+	display: inline-block;
+}
+
+nav li{
+	outline-color: 45% 	#e6e600;
+	padding: 18px 28px;
+	color:  #ff3300;
+	list-style: none;
+}	
+
+a {
+	background-color: ;
+	color: #fff000;
+	text-decoration: none;
+	display: block;
+	/*padding: ;*/
+}
+a:hover {
+	color: #dea821;
+}
+body {
+	background-image: url("../images/the-phoenix-rising.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+ #two_column {
+    /*background-color: ;
+    border:;*/ 
+    padding: 1em;
+}
+
+/*#left {
+    background-color: ;
+    border: ;
+    padding: ;
+    float: left;
+    width: ;
+}
+*/
+#right {
+    text-align: center;
+}
+/*aside {
+	color: #eb4e14;
+	font-family: "Lobster", Georgia, sans-serif;
+	font-weight: 900;
+	font-size: 1.5em;
+}*/
+
+/*article {
+	background-color: ;
+	border: ;
+	padding: ;
+}
+*/
+/*section {
+	background-color: ;
+	border: ;
+	padding: ;
+}
+*/
+
+h1 {
+	color: #e60000;
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 3.5em;
+	text-shadow: 3px 3px #000000;
+	/*Internet Explorer 9 and earlier do not support the text-shadow property*/
+}
+
+h2 {
+	color: #FFBF00;
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+	text-shadow: 3px 2px 0px #2A0000;
+	text-align: center;
+	}
+
+h3{
+	color: rgba(230, 0, 0,.5);
+	font-family: 'Eagle Lake', helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 3.5em;
+	padding: 1em 1em 1em 1em;
+	text-shadow: 2px 2px 1px #000000;
+}
+
+h4 {
+	color: #FF0000;
+	font-family: 'Arial Black', helvetica, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 3px 2px 1px #2A0000;
+} 
+
+h5 {
+	font-family:arial, helvetica, sans-serif;
+	color: #FFBF00;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 1px #2A0000;
+}
+    
+ul li{
+	font-family: "Arial Black",Gadget, sans-serif;
+    color: #e6e600;
+    font-size: 2em;
+    list-style-type: none;
+    text-shadow: #000000; 
+
+}
+form{
+	background-color: rgba(255,102,0,1);
+	}
+
+/*footer {
+	background-color: ;
+	border: ;
+	padding: ;
+}*/
+
+p {
+	font-family:arial, helvetica, sans-serif;
+    color: #FFFFFF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+  	text-align: center;
+}
+
+@media screen and (max-width: 600px){
+	body{
+		border: 5px solid green;
+	}
+
+	h1{
+	  	box-shadow: 10px 10px 5px #888888;
+		font-size: 3em;
+		text-align: center
+	}
+
+	nav{
+		background-color: rgba(0,0,0,0.5);
+		width: 100%;
+		display: block;
+		text-align: center;
+		font-color: #eb4e14;
+	}
+	form{
+		width: 100%; 
+		/*display: block;*/
+		
+	
+}
