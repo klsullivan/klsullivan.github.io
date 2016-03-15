@@ -35,8 +35,8 @@ a:hover {
 	color: #dea821;
 }
 body {
-	background-image: url("../images/the-phoenix-rising.jpg");
-	background-repeat: no-repeat;
+    background-image: url("../images/the-phoenix-rising.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     font-size: 16px;
     background-position: center center;
@@ -86,6 +86,7 @@ h1 {
 	font-weight: 900;
 	font-size: 3.5em;
 	text-shadow: 3px 3px #000000;
+	padding:1px 1px 1px 1px;
 	/*Internet Explorer 9 and earlier do not support the text-shadow property*/
 }
 
